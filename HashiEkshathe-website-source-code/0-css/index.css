@@ -1,0 +1,279 @@
+section.index-intro, section.index-donation-counter,
+.index-aboutus-digitalrecords, .index-contactus {
+    width: 1250px;
+    display: flex;  
+    justify-content: space-between;
+}
+.index-ourprojects, .index-store, .index-ourteams {
+    width: 1250px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+}
+.index-intro-text {
+    padding-right: 30px;
+    margin: auto 0 auto 0;
+}
+#index-contactus-button, .index-intro-text p, .index-intro-text button,
+.index-donation-counter-description-button,
+#index-aboutus-digitalrecords-button, #index-ourprojects-button,
+#index-store-button, #index-ourteams-button, .index-aboutus p, 
+.index-digitalrecords p, .ourprojects-1 h1, .ourprojects-2 h1,
+ .ourprojects-3 h1, .index-store p, .index-ourteams-description, .index-ourprojects p {
+
+    margin-top: 30px;
+
+} 
+
+.index-intro-text-img img {
+    width: 750px;
+    height: auto;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+    section.index-intro, section.index-donation-counter,
+    .index-aboutus-digitalrecords, .index-contactus {
+    width: 90%;
+    }
+    .index-intro-text {
+        width: 50%;
+    }
+    .index-intro-text-img img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {}
+
+@media screen and (max-width: 750px) {
+    section.index-intro {
+    width: 80%;
+    }
+    .index-intro-text {
+        width: 100%;
+    }
+    .index-intro-text-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {}
+
+.index-donation-counter-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-donation-counter-description {
+    width: 60%;
+}
+
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 500px) {
+    section.index-donation-counter {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+    .index-donation-counter-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .index-donation-counter-description {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .index-intro-text {
+        width: 100%;
+
+    }
+}
+.aboutus-text-mobile {
+    display: none;
+}
+.index-aboutus, .index-digitalrecords {
+    width: 48%;
+}
+
+.index-aboutus-digitalrecords-line {
+    width: 2px;
+
+    background-color: #221E1F;
+}
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 750px) {}
+@media screen and (max-width: 500px) {
+    .index-aboutus-digitalrecords-line {
+        display: none;
+    }
+    .index-aboutus-digitalrecords {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .index-aboutus, .index-digitalrecords {
+        width: 100%;
+    }
+    .index-aboutus h2 {
+        margin-top: -30px;
+    }
+    .index-aboutus p, .index-digitalrecords p {
+        margin-top: 15px;
+    }
+    .index-digitalrecords {
+        margin-top: 30px;
+    }
+    .aboutus-text-mobile {
+        display: block;
+    }
+    .aboutus-text-desktop {
+        display: none;
+    }
+}
+
+.index-ourprojects-showcase {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ourprojects-1, .ourprojects-2, .ourprojects-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index-ourprojects img {
+    width: 390px;
+    height: 390px;
+    border-radius: 30px;
+    background-color: #221E1F;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 750px) {}
+@media screen and (max-width: 500px) {
+    .index-ourprojects, .index-store {
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+    }
+    .index-ourprojects-showcase {
+
+        display: flex;
+        flex-direction: column;
+    }
+    .index-ourprojects img {
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+
+    }
+}
+
+.index-store img {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+
+    background-color: #221E1F;
+}
+
+.index-ourteams-1, .index-ourteams-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.index-ourteams-1 div, .index-ourteams-2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.index-ourteams-1 div h1, .index-ourteams-2 div h1 {
+    font-size: 32px;
+    margin-top: 15px;
+}
+.index-ourteams-1 img, .index-ourteams-2 img {
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    background-color: #221E1F;
+}
+
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 750px) {}
+@media screen and (max-width: 500px) {
+    .index-ourteams {
+        width: 80%;
+        display: flex;
+        flex-direction: column;  
+    }
+    .index-ourteams-1, .index-ourteams-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}
+
+.index-contactus p {
+    margin-top: 30px;
+}
+.index-contactus-line {
+    width: 2px;
+    background-color: #221E1F;
+}
+
+.index-contactus-container input {
+    font-size: 24px;
+    border-radius: 50px;
+    border: 1px #221E1F;
+    padding: 10px 30px;
+
+    margin-top: 15px;
+}
+
+.index-contactus-container textarea {
+    font-size: 24px;
+    border-radius: 30px;
+    border: 1px #221E1F;
+    padding: 10px 30px;
+
+    margin-top: 15px;
+}
+.index-contactus-socials-container div {
+    margin-top: 30px;
+}
+.index-contactus-socials-container a {
+    color: #221E1F;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 750px) {}
+@media screen and (max-width: 500px) {
+    .index-contactus {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}   
